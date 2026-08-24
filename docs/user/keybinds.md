@@ -331,3 +331,5 @@ and widgets via `noctalia msg`. Typical bindings:
 XF86 keys accept the same `Mod`, `Ctrl`, `Alt`, `Shift`, and `Super`
 combinations as other keys. Modifier chords also work when the XF86 key is
 reported by a separate laptop hotkey device.
+
+Don't have dedicated media keys? Change `XF86XXX` to `Mod+V`, `Ctrl+Alt+Up`, or any other binding.
