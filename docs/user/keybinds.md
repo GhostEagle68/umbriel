@@ -313,9 +313,9 @@ and widgets via `noctalia msg`. Typical bindings:
 ## Example: media and brightness keys
 
 ```toml
-# Volume (via Noctalia OSD)
-"XF86AudioRaiseVolume" = "spawn:noctalia msg volume-up 2%"
-"XF86AudioLowerVolume" = "spawn:noctalia msg volume-down 2%"
+# Volume — change 5% to your preferred step size (1%, 3%, 10%, etc.)
+"XF86AudioRaiseVolume" = "spawn:wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+"
+"XF86AudioLowerVolume" = "spawn:wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"
 "Mod+XF86AudioMute" = "spawn:wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
 
 # Media playback (playerctl)
