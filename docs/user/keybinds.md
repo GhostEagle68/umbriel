@@ -332,4 +332,4 @@ XF86 keys accept the same `Mod`, `Ctrl`, `Alt`, `Shift`, and `Super`
 combinations as other keys. Modifier chords also work when the XF86 key is
 reported by a separate laptop hotkey device.
 
-Don't have dedicated media keys? Change `XF86XXX` to `Mod+V`, `Ctrl+Alt+Up`, or any other binding.
+Volume control requires `wpctl` (from WirePlumber/PipeWire) while media playback requires `playerctl`. Don't have dedicated media keys? Change `XF86XXX` to `Mod+V`, `Ctrl+Alt+Up`, or any other binding.
